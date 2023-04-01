@@ -1,0 +1,18 @@
+.header{
+    background-image: url("./network.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: xx-large;
+}
+
+.h1{
+    text-align: center;
+}
