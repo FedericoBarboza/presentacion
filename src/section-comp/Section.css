@@ -1,13 +1,46 @@
 .section{
-
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
 }
 
 .div{
-    background-color: aqua;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    background-color: antiquewhite;
+    border: solid black 3px;
+    height: 25%;
+    width: 25%;
+    text-align: center;
+    padding-bottom: 1rem;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px 0px 0px #ff7c01, 9px -5px 0px 17px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 0px 0px #ff7c01, 9px -5px 0px 17px rgba(0,0,0,0);
 }
 
 .p{
-    font-size: larger;
+    font-size:large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.circle{
+    position: relative;
+    background-color: #ff7c01;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: solid black 2px;
+}
+
+.circle svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 70%;
+    width: 70%;
+    color: rgb(229, 229, 229);
+  }

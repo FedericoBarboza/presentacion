@@ -1,8 +1,10 @@
 .footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     color: antiquewhite;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    font-size: larger;
   }
   
