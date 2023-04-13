@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: rgb(229, 229, 229);
     border: solid black 3px;
     height: 25%;
     width: 25%;
@@ -42,5 +42,5 @@
     transform: translate(-50%, -50%);
     height: 70%;
     width: 70%;
-    color: rgb(229, 229, 229);
+    color: rgb(255, 252, 252);
   }
